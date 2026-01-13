@@ -358,11 +358,11 @@
             display-name = "Fn";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans  &kp F1     &kp F2  &kp F3  &kp F4  &kp F5              &trans  &trans  &trans  &trans              &kp F6   &kp F7       &kp F8    &kp F9         &kp F10  &kp F11
-&trans  &none      &none   &none   &none   &none               &trans  &trans  &trans  &trans              &none    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &none    &kp F12
-&trans  &none      &none   &none   &none   &none   &kp CAPS    &trans  &trans  &trans  &trans    &kp LPAR  &none    &kp LEFT     &kp DOWN  &kp RIGHT      &none    &none
-&trans  &none      &none   &none   &none   &none   &kp DEL     &trans  &trans  &trans  &trans    &kp RPAR  &none    &kp HOME     &none     &kp END        &none    &none
-&trans  &kp RSHFT          &trans  &trans  &trans  &trans                                        &trans    &kp DEL                                                 &studio_unlock
+&trans  &kp F1     &kp F2  &kp F3  &kp F4  &kp F5             &trans  &trans  &trans  &trans              &kp F6   &kp F7       &kp F8    &kp F9         &kp F10  &kp F11
+&trans  &none      &none   &none   &none   &none              &trans  &trans  &trans  &trans              &none    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &none    &kp F12
+&trans  &none      &none   &none   &none   &none   &none      &trans  &trans  &trans  &trans    &kp LPAR  &none    &kp LEFT     &kp DOWN  &kp RIGHT      &none    &none
+&trans  &none      &none   &none   &none   &none   &kp DEL    &trans  &trans  &trans  &trans    &kp RPAR  &none    &kp HOME     &none     &kp END        &none    &none
+&trans  &kp RSHFT          &trans  &trans  &trans  &trans                                       &trans    &kp DEL                                                 &kp CAPSLOCK
             >;
         };
 
