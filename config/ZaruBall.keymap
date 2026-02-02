@@ -23,7 +23,7 @@
     input-processors =  <
                         // トラックボールの向きの変更(ZaruBallv1とv2,v3ではセンサーの向きが異なるので調整してください。デフォルトではv2,v3用)
                          &zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT)
-                         &zip_temp_layer MOUSE 500 // 500ms stay at mouse layer
+                         // &zip_temp_layer MOUSE 500 // 500ms stay at mouse layer
                         >;
     scroller {
         layers = <SCROLL>;
